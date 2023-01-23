@@ -656,7 +656,7 @@ else "Insufficient"</dmn:text>
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="1073" y="151" width="136" height="62"/>
+        <dc:Bounds x="945" y="116" width="136" height="62"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-drg-_21C50763-E49F-4D83-A824-16DA6AA87C64" dmnElementRef="_21C50763-E49F-4D83-A824-16DA6AA87C64" isCollapsed="false">
@@ -725,7 +725,7 @@ else "Insufficient"</dmn:text>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_31A1B6B2-A2A6-4E03-B898-26573A5CF3BA" dmnElementRef="_31A1B6B2-A2A6-4E03-B898-26573A5CF3BA">
         <di:waypoint x="1030" y="389.5"/>
-        <di:waypoint x="1141" y="213"/>
+        <di:waypoint x="1013" y="178"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_A3E95B32-2EFD-40AD-B5E4-0A73A1542011" dmnElementRef="_A3E95B32-2EFD-40AD-B5E4-0A73A1542011">
         <di:waypoint x="383" y="256"/>
@@ -736,7 +736,7 @@ else "Insufficient"</dmn:text>
         <di:waypoint x="600" y="151"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-drg-_B6002F33-4888-48C5-B265-636030F8C2DC" dmnElementRef="_B6002F33-4888-48C5-B265-636030F8C2DC">
-        <di:waypoint x="1141" y="182"/>
+        <di:waypoint x="1013" y="147"/>
         <di:waypoint x="600" y="151"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
