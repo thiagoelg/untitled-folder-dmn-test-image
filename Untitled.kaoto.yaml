@@ -1,0 +1,24 @@
+apiVersion: camel.apache.org/v1alpha1
+kind: KameletBinding
+metadata:
+  name: Untitled.kaoto.yaml
+spec:
+  source:
+    ref:
+      apiVersion: camel.apache.org/v1alpha1
+      name: aws-ddb-streams-source
+      kind: Kamelet
+  steps:
+  - ref:
+      apiVersion: camel.apache.org/v1alpha1
+      name: avro-deserialize-action
+      kind: Kamelet
+  - ref:
+      apiVersion: camel.apache.org/v1alpha1
+      name: caffeine-action
+      kind: Kamelet
+  sink:
+    ref:
+      apiVersion: camel.apache.org/v1alpha1
+      name: insert-header-action
+      kind: Kamelet
